@@ -57,6 +57,8 @@ let closeSideBarMobilRight = () =>{
 let closeAllSideBars = () =>{
   seticonToggle('far fa-bars text-2xl');
   setshowPanel('-translate-x-full');
+  setoverflowToggle('overflow-hidden');
+
 
 }
   return (
