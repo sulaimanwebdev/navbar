@@ -13,11 +13,15 @@ function App() {
     if(showPanel === "-translate-x-full"){
     setshowPanel('-translate-x-0');
     seticonToggle('far fa-times text-2xl');
+    setoverflowToggle('overflow-hidden');
 
     }
     else{
     setshowPanel('-translate-x-full');
     seticonToggle('far fa-bars text-2xl');
+    setoverflowToggle('overflow-hidden');
+    setopacityLink('opacity-70');
+
 
 
     }
