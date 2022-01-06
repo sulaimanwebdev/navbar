@@ -6,15 +6,19 @@ function App() {
   const [showPanel, setshowPanel] = useState("-translate-x-full");
   const [opacityLink, setopacityLink] = useState("opacity-70");
   const [overflowToggle, setoverflowToggle] = useState("overflow-hidden");
+  const [iconToggle, seticonToggle] = useState("far fa-bars text-2xl")
 
 
   let showPanelFunction = () =>{
     if(showPanel === "-translate-x-full"){
     setshowPanel('-translate-x-0');
+    seticonToggle('far fa-times text-2xl');
 
     }
     else{
     setshowPanel('-translate-x-full');
+    seticonToggle('far fa-bars text-2xl');
+
 
     }
   }
@@ -41,9 +45,9 @@ function App() {
   <>
 <div className="w-full h-16 bg-[#262626] text-white flex items-center justify-between px-6">
   <div>
-    <div className="flex items-center gap-2 cursor-pointer" onClick={showPanelFunction}>
-    <i className="far fa-bars text-2xl"></i>
-    <span className="font-bold">Menu</span>
+    <div className="grid grid-cols-2  cursor-pointer" onClick={showPanelFunction}>
+    <i className={iconToggle}></i>
+    <span className="font-bold self-center	transform -translate-x-3">Menu</span>
     </div>
   </div>
 
