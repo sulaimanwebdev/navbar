@@ -83,7 +83,7 @@ let closeAllSideBars = () =>{
 
 
 
-<div className={`absolute  top-0 sm:top-16 z-50 left-0 w-screen h-screen sm:h-auto  py-5 pt-20 sm:pt-5 sm:w-[250px] bg-[#262626] text-white pl-6 pr-6 transition transform ${showPanel} ${overflowToggle}`}>
+<div className={`absolute  top-0 sm:top-16 z-50 left-0 w-screen h-screen   py-5 pt-20 sm:pt-5 sm:w-[250px] bg-[#262626] text-white pl-6 pr-6 transition transform ${showPanel} ${overflowToggle}`}>
 <i className="far fa-times sm:hidden text-2xl text-white absolute top-5 left-5 cursor-pointer" onClick={closeAllSideBars}></i>
 
 <div className="flex gap-5 flex-col">
