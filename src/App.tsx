@@ -98,16 +98,17 @@ let closeAllSideBars = () =>{
 <a href="#" className="opacity-70 hover:opacity-100 text-center sm:text-left">Vai al sito ufficiale</a>
 </div>
 
-<div className={`absolute flex gap-5 flex-col right-0 sm:right-[-89%] top-0 bg-[#0f0f0f] px-6 sm:px-14 py-2 pt-10 h-full w-full sm:w-auto transition transform sm:-translate-x-0 ${showRightBar}`}>
-<i className="fal fa-angle-left sm:hidden cursor-pointer text-4xl opacity-80" onClick={closeSideBarMobilRight}></i>
-<a href="#" className="opacity-100">OPERA</a>
-<a href="#" className="opacity-100">BALLETTO</a>
-<a href="#" className="opacity-100">CONCERTI</a>
-<a href="#" className="opacity-100">BAMBINI</a>
-<a href="#" className="opacity-100">PLAYLIST</a>
-<a href="#" className="opacity-100">DOCUMENTARI</a>
-<a href="#" className="opacity-100">BALLETTO</a>
-<a href="#" className="opacity-100">INTERVISTE</a>
+<div className={`absolute flex gap-5 flex-col right-0 sm:right-[-89%] top-0 bg-[#0f0f0f] px-0 sm:px-14 py-2 pt-5 h-full w-full sm:w-auto transition transform sm:-translate-x-0 ${showRightBar}`}>
+
+<div className="sm:hidden  cursor-pointer border-b border-[rgba(255, 255, 255, 0.623)] pb-2"  onClick={closeSideBarMobilRight}><div className="flex items-center gap-3 px-10 transform -translate-x-6"><i className="fal fa-angle-left cursor-pointer text-4xl"></i>ON DEMAND</div></div>
+<a href="#" className="opacity-90 px-10 sm:px-0">OPERA</a>
+<a href="#" className="opacity-90 px-10 sm:px-0">BALLETTO</a>
+<a href="#" className="opacity-90 px-10 sm:px-0">CONCERTI</a>
+<a href="#" className="opacity-90 px-10 sm:px-0">BAMBINI</a>
+<a href="#" className="opacity-90 px-10 sm:px-0">PLAYLIST</a>
+<a href="#" className="opacity-90 px-10 sm:px-0">DOCUMENTARI</a>
+<a href="#" className="opacity-90 px-10 sm:px-0">BALLETTO</a>
+<a href="#" className="opacity-90 px-10 sm:px-0">INTERVISTE</a>
 
 
 
