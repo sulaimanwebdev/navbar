@@ -75,7 +75,10 @@ let closeAllSideBars = () =>{
   <div className="flex items-center opacity-90 gap-10">
      <div className="font-bold text-2xl mr-3">LOGO</div>
      <div className="flex items-center "><span className=" text-lg mr-2 ">Login</span> <i className="far fa-user-alt text-lg "></i></div>
-     <div className="flex items-center "><span className=" text-lg mr-2 ">ITA</span> <i className="fal fa-angle-down text-2xl"></i></div>
+     <select  className="bg-transparent border-none outline-none w-14 text-xl">
+       <option className="text-black" value="ITA">ITA</option>
+       <option className="text-black" value="EN">EN</option>
+     </select>
 
   </div>
 </div>
