@@ -63,14 +63,14 @@ let closeAllSideBars = () =>{
   <>
 <div className="w-full h-16 bg-[#262626] text-white flex items-center justify-between px-6">
   <div>
-    <div className="grid grid-cols-2  cursor-pointer" onClick={showPanelFunction}>
+    <div className="grid grid-cols-2 opacity-90 cursor-pointer" onClick={showPanelFunction}>
     <i className={iconToggle}></i>
     <span className="font-bold self-center	transform -translate-x-3">Menu</span>
     </div>
   </div>
 
 
-  <div className="flex items-center gap-10">
+  <div className="flex items-center opacity-90 gap-10">
      <div className="font-bold text-2xl mr-3">LOGO</div>
      <div className="flex items-center "><span className=" text-lg mr-2 ">Login</span> <i className="far fa-user-alt text-lg "></i></div>
      <div className="flex items-center "><span className=" text-lg mr-2 ">ITA</span> <i className="fal fa-angle-down text-2xl"></i></div>
@@ -91,9 +91,9 @@ let closeAllSideBars = () =>{
 <a href="#" className="opacity-70 hover:opacity-100">ABBONAMENTI</a>
 <a href="#" className="opacity-70 hover:opacity-100">SCUOLE</a>
 <a href="#" className="flex w-fit opacity-70 hover:opacity-100 gap-5 items-center justify-between">ITA <i className="fal fa-angle-down text-2xl"></i></a>
-<a href="#" className="text-[red] font-bold mt-7 mb-3 text-sm mx-auto">LOGIN</a>
-<a href="#" className="opacity-70 hover:opacity-100">Supporto</a>
-<a href="#" className="opacity-70 hover:opacity-100">Vai al sito ufficiale</a>
+<a href="#" className="text-[red] font-bold sm:mt-7 mb-3 text-sm sm:mx-auto w-fit px-10 py-3 border border-red-600 sm:px-0 sm:py-0 sm:border-none">LOGIN</a>
+<a href="#" className="opacity-70 hover:opacity-100 text-center sm:text-left transform translate-y-3 sm:translate-y-0">Supporto</a>
+<a href="#" className="opacity-70 hover:opacity-100 text-center sm:text-left">Vai al sito ufficiale</a>
 </div>
 
 <div className={`absolute flex gap-5 flex-col right-0 sm:right-[-89%] top-0 bg-[#0f0f0f] px-6 sm:px-14 py-2 pt-10 h-full w-full sm:w-auto transition transform sm:-translate-x-0 ${showRightBar}`}>
