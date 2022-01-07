@@ -95,7 +95,10 @@ let closeAllSideBars = () =>{
 <a href="#" onClick={functionOpacity} className={`flex items-center hover:opacity-100 gap-5 w-fit sm:w-auto justify-between opacity-70 ${opacityLink}`}>ON DEMAND <i className="fal fa-angle-right text-2xl"></i></a>
 <a href="#" className="opacity-70 hover:opacity-100">ABBONAMENTI</a>
 <a href="#" className="opacity-70 hover:opacity-100">SCUOLE</a>
-<a href="#" className="flex w-fit opacity-70 hover:opacity-100 gap-5 items-center justify-between">ITA <i className="fal fa-angle-down text-2xl"></i></a>
+<select  className="bg-transparent opacity-70 cursor-pointer hover:opacity-100 border-none outline-none w-14 text-xl">
+       <option className="text-black" value="ITA">ITA</option>
+       <option className="text-black" value="EN">EN</option>
+     </select>
 <a href="#" className="text-[red] font-bold sm:mt-7 mb-3 text-sm sm:mx-auto w-fit px-10 py-3 border border-red-600 sm:px-0 sm:py-0 sm:border-none">LOGIN</a>
 
 <div className="h-16 mx-auto w-40 md:w-52 bg-green-400  flex sm:hidden"></div>
